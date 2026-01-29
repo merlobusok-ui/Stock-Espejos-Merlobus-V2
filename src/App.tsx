@@ -14,8 +14,8 @@ import { TABS, INITIAL_CATALOG } from './constants';
 import { Card, Button, Input, Badge, SectionHeader } from './components/UI';
 import { getAIInventoryAdvice } from './services/geminiService';
 
-const SUPABASE_URL = "https://qxawycagzmjiuknjpmcl.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF4YXd5Y2Fnem1qaXVrbmpwbWNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk2OTI3MjgsImV4cCI6MjA4NTI2ODcyOH0.7Im9sn1fPHUOM4XD368nFT-tlj6XiF1ZbtdXQTt7qWQ";
+const NEXT_PUBLIC_SUPABASE_URL = "https://qxawycagzmjiuknjpmcl.supabase.co";
+const NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY = "sb_publishable_vb2ZHiEnq_VrIKhl7GKQfQ_usDLHfbE";
 
 // Clave única v9 estable
 const K = {
